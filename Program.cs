@@ -5,6 +5,8 @@ using Microsoft.Extensions.DependencyInjection; // Importa el espacio de nombres
 using Microsoft.Extensions.Hosting; // Importa el espacio de nombres necesario para trabajar con diferentes entornos (desarrollo, producción, etc.).
 using csharpapi.Services; // Importa los servicios personalizados que se utilizarán en la aplicación.
 using Microsoft.OpenApi.Models; // 🔹 Importa el espacio de nombres necesario para habilitar Swagger.
+using csharapigenerica.Services;
+
 
 var builder = WebApplication.CreateBuilder(args); // Crea un constructor para configurar la aplicación web ASP.NET Core.
 
