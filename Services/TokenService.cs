@@ -5,7 +5,7 @@ using System.Text; // Importa el espacio de nombres necesario para la codificaci
 using Microsoft.Extensions.Configuration; // Importa la configuración de la aplicación.
 using Microsoft.IdentityModel.Tokens; // Importa la funcionalidad para la validación y firma de tokens.
 
-namespace csharpapi.Services
+namespace csharpapigenerica.Services
 {
     public class TokenService
     {
